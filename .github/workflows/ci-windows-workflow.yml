@@ -1,4 +1,4 @@
-name: Run tests
+name: test-windows
 
 on: [push, pull_request]
 

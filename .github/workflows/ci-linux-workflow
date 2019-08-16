@@ -1,4 +1,4 @@
-name: Run tests
+name: test-linux
 
 on: [push, pull_request]
 
