@@ -16,5 +16,5 @@ jobs:
         uses: julia-actions/setup-julia@v0.1.0
         with:
           version: ${{ matrix.julia-version }}
-      - name: Test exercises
+      - name: Test all exercises
         run: make test
