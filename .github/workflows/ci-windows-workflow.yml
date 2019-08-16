@@ -1,4 +1,4 @@
-name: Run tests
+name: test-windows
 
 on: [push, pull_request]
 
@@ -8,7 +8,7 @@ jobs:
     strategy:
       matrix:
         julia-version: [1.0.4, 1.1.1, 1.2.0-rc3, 1.3.0-alpha]
-        os: [ubuntu-latest, windows-latest, macOS-latest]
+        os: [windows-latest]
     
     steps:
       - uses: actions/checkout@v1.0.0
