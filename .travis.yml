@@ -33,19 +33,5 @@ matrix:
     - julia: nightly
     - arch: x86
 
-matrix:
-  include:
-    - python: 3.6
-      dist: trusty
-      sudo: false
-    - python: 3.7
-      dist: xenial
-      sudo: true
-    - python: nightly
-      dist: trusty
-      sudo: false
-  allow_failures:
-    - python: nightly
-
 script:
   - make -j8 test
