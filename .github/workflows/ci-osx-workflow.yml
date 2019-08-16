@@ -8,7 +8,7 @@ jobs:
     strategy:
       matrix:
         julia-version: [1.0.4, 1.1.1, 1.2.0-rc3, 1.3.0-alpha]
-        os: [windows-latest]
+        os: [macOS-latest]
     
     steps:
       - uses: actions/checkout@v1.0.0
